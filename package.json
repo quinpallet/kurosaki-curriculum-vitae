@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "generate": "md-to-pdf ./README.md",
+    "generate": "md-to-pdf --stylesheet 'https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css' --stylesheet 'https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap' --pdf-options '{ \"format\": \"A4\", \"margin\": \"15mm 15mm\", \"displayHeaderFooter\": false }' --css 'body { font-family: \"M PLUS 1p\", sans-serif; font-size: 14px; }' ./README.md",
+    "usage": "md-to-pdf --help",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

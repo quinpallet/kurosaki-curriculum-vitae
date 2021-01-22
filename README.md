@@ -1,19 +1,3 @@
----
-stylesheet: https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css
-body_class: markdown-body
-pdf_options:
-  format: A4
-  margin: 10mm 15mm
-  displayHeaderFooter: false
----
-<style>
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
-
-.markdown-body {
-    font-family: 'M PLUS 1p', sans-serif;
-    font-size: 13px;
-}
-</style>
 # 職務経歴書
 
 ## ■基本情報
