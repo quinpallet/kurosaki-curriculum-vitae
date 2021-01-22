@@ -18,7 +18,7 @@
 - JavaScript / TypeScript
 - HTML
 - CSS
-- Python
+- Python (pandas / scikit-learn)
 - R
 - Java
 
