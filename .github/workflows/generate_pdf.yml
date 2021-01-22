@@ -1,0 +1,28 @@
+name: auto PDF generate
+
+on:
+  push:
+    branches:
+      - master  
+
+jobs:
+  nodejob:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: npm install
+        run: npm install
+
+      - name: Generate PDF
+        run: npm run generate
+
+      - name: Git commit and push
+        run: git commit -m 'generate PDF' && git push
