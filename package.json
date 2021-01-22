@@ -1,0 +1,23 @@
+{
+  "name": "kurosaki-curriculum-vitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "md-to-pdf ./README.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quinpallet/kurosaki-curriculum-vitae.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quinpallet/kurosaki-curriculum-vitae/issues"
+  },
+  "dependencies": {
+    "md-to-pdf": "^3.2.1"
+  }
+}
